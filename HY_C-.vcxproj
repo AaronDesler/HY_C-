@@ -140,10 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="hw1.cpp" />
+    <ClCompile Include="hw2.cpp" />
+    <ClCompile Include="hw3.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hw1.h" />
+    <ClInclude Include="hw2.h" />
+    <ClInclude Include="hw3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

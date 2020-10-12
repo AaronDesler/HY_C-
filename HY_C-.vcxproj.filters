@@ -13,18 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Ressourcendateien\hw1">
+      <UniqueIdentifier>{02026f8c-1ed4-48d0-8b59-a1210d7d8d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien\hw2">
+      <UniqueIdentifier>{77ff4ff7-6ae4-4150-8b5b-a5f2e5881d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien\hw3">
+      <UniqueIdentifier>{87c3c038-52de-4e76-a6ab-9a927e21a1b4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Ressourcendateien</Filter>
     </ClCompile>
     <ClCompile Include="hw1.cpp">
-      <Filter>Ressourcendateien</Filter>
+      <Filter>Ressourcendateien\hw1</Filter>
+    </ClCompile>
+    <ClCompile Include="hw2.cpp">
+      <Filter>Ressourcendateien\hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="hw3.cpp">
+      <Filter>Ressourcendateien\hw3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hw1.h">
-      <Filter>Ressourcendateien</Filter>
+      <Filter>Ressourcendateien\hw1</Filter>
+    </ClInclude>
+    <ClInclude Include="hw2.h">
+      <Filter>Ressourcendateien\hw2</Filter>
+    </ClInclude>
+    <ClInclude Include="hw3.h">
+      <Filter>Ressourcendateien\hw3</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -89,11 +89,11 @@ void HW1::gcd() {
 int HW1::init(int j) {
 	int i = 0;
 	while (1) {
-		cout << string(100, '\n');
+		cout << string(3, '\n');
 		cout << "Homework #" << j << endl;
 		cout << "For 'Bools' enter 1" << endl << "For 'Maximum' enter 2" << endl << "For 'Cumulative Sum' enter 3" << endl << "For 'GCD' enter 4" << endl << "Terminate with 0" << endl;
 		cin >> i;
-		cout << string(100, '\n');
+		cout << string(3, '\n');
 		switch (i) {
 		case 0:
 			return 0;
